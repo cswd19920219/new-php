@@ -1,0 +1,21 @@
+{
+    "name": "cs/new-php",
+    "description": "new-php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "changsheng",
+            "email": "736369907@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Test\\Library\\" : "src/Test/Library"
+        }
+    }
+}
